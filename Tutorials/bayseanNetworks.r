@@ -4,7 +4,7 @@
 #### Data prep ####
 library(bnlearn)
 data(coronary) # Load data from package "bnlearn"
-bn_df <- data.frame(coronary)
+bn_df <- data.frame(coronary) # Create data.frame
 
 #### Find the stucture (see final notes for further information) ####
 res <- hc(bn_df) # Use the “max-min hill climbing” algorithm to automatically discover the network structure
