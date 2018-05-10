@@ -1,5 +1,6 @@
 # Script made by Bruno M. Silva
 # For a detailed explanation see:
+# https://geekcologist.wordpress.com/2018/05/10/pdf-scraping-with-r-1-of-3/
 
 library(pdftools)
 library(tm)
