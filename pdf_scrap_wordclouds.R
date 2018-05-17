@@ -10,7 +10,7 @@ library(wordcloud)
 len <- 50
 
 # Change with the full path of the folder containing the PDF files
-path <- "~/Projectos/geekcologist/post1_pdf_scrap_wordclouds/pdf_folder"
+path <- "~/pdf_folder"
 setwd(path)
 
 # Import PDF files
