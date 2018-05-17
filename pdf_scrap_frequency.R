@@ -9,7 +9,7 @@ library(tm)
 len <- 5
 
 # Change with the full path of the folder containing the PDF files
-path <- "~/Projectos/geekcologist/post2_pdf_scrap_frequency/pdf_folder"
+path <- "~/pdf_folder"
 setwd(path)
 
 # Import PDF files
