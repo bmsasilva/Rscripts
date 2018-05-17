@@ -35,7 +35,7 @@ keywords <- c("feeding", "kuhlii", "echolocating", "calls")
 stemming <- TRUE
 
 # Change with the full path of the folder containing the PDF files
-path <- "~/Projectos/geekcologist/post3_pdf_scrap_keywords/pdf_folder"
+path <- "~/pdf_folder"
 setwd(path)
 
 # Import PDF files
