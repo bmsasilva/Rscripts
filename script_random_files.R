@@ -12,4 +12,4 @@ path <- tcltk::tk_choose.dir()
 percent_number <- 0.2
 
 # Random sampling of files
-random_sample(path, percent_number, pattern = "wav$|WAV$")
+random_files(path, percent_number, pattern = "wav$|WAV$")
